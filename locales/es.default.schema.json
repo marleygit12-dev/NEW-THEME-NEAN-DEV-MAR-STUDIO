@@ -1,0 +1,91 @@
+{
+  "general": {
+    "404": "No encontrada",
+    "article": "Artículo",
+    "block": "Bloque",
+    "blog": "Blog",
+    "cart": "Carrito",
+    "collection": "Colección",
+    "collections": "Colecciones",
+    "collection_card": "Tarjeta de colección",
+    "collections_grid": "Cuadrícula de colecciones",
+    "colors": "Colores",
+    "column": "Columna",
+    "contact": "Contacto y WhatsApp",
+    "content": "Contenido",
+    "custom_section": "Sección personalizada",
+    "fonts": "Tipografías",
+    "footer": "Pie de página",
+    "group": "Grupo",
+    "header": "Encabezado",
+    "layout": "Diseño",
+    "main": "Principal",
+    "page": "Página",
+    "password": "Contraseña",
+    "primary": "Principal",
+    "product": "Producto",
+    "product_cards": "Tarjetas de producto",
+    "row": "Fila",
+    "search": "Búsqueda",
+    "secondary": "Secundaria",
+    "section": "Sección",
+    "settings": "Configuración",
+    "sidebar": "Barra lateral",
+    "social": "Redes sociales",
+    "text": "Texto",
+    "theme": "Tema",
+    "typography": "Tipografía"
+  },
+  "labels": {
+    "accent": "Acento (barra de anuncios)",
+    "alignment": "Alineación",
+    "background": "Fondo",
+    "card_new_tag": "Etiqueta para la insignia \"Nueva\"",
+    "card_show_second_image": "Mostrar segunda foto al pasar el mouse",
+    "foreground": "Texto",
+    "grid_gap": "Espacio de la cuadrícula",
+    "grid_item_width": "Ancho de los elementos",
+    "input_corner_radius": "Redondeo de botones y campos",
+    "layout_direction": "Dirección",
+    "menu": "Menú",
+    "muted": "Texto secundario",
+    "padding": "Relleno",
+    "page_margin": "Margen de la página",
+    "page_width": "Ancho de la página",
+    "show_payment_icons": "Mostrar medios de pago",
+    "surface": "Fondo de tarjetas",
+    "text_style": "Estilo de texto",
+    "text": "Texto",
+    "whatsapp_floating": "Mostrar botón flotante de WhatsApp",
+    "whatsapp_message": "Mensaje predeterminado de WhatsApp",
+    "whatsapp_number": "Número de WhatsApp"
+  },
+  "info": {
+    "card_new_tag": "Los productos con esta etiqueta muestran la insignia \"Nueva\".",
+    "whatsapp_number": "Con indicativo de país y sin espacios ni signo +. Ejemplo: 573018430447"
+  },
+  "options": {
+    "alignment": {
+      "left": "Izquierda",
+      "center": "Centro",
+      "right": "Derecha"
+    },
+    "direction": {
+      "horizontal": "Horizontal",
+      "vertical": "Vertical"
+    },
+    "page_width": {
+      "narrow": "Estrecho",
+      "wide": "Amplio"
+    },
+    "size": {
+      "large": "Grande",
+      "small": "Pequeño"
+    },
+    "text_style": {
+      "title": "Título",
+      "subtitle": "Subtítulo",
+      "normal": "Texto normal"
+    }
+  }
+}

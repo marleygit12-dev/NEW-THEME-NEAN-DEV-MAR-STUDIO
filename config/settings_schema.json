@@ -1,9 +1,9 @@
 [
   {
     "name": "theme_info",
-    "theme_name": "Skeleton",
-    "theme_version": "0.1.0",
-    "theme_author": "Shopify",
+    "theme_name": "NOAN",
+    "theme_version": "1.0.0",
+    "theme_author": "Mar Studio",
     "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
     "theme_support_url": "https://support.shopify.com/"
   },
@@ -17,9 +17,9 @@
       {
         "type": "font_picker",
         "id": "type_primary_font",
-        "default": "work_sans_n4",
+        "default": "inter_n4",
         "label": "t:general.primary"
-      },
+      }
     ]
   },
   {
@@ -49,7 +49,7 @@
         "step": 1,
         "unit": "px",
         "label": "t:labels.page_margin",
-        "default": 20
+        "default": 40
       }
     ]
   },
@@ -65,8 +65,26 @@
       {
         "type": "color",
         "id": "foreground_color",
-        "default": "#333333",
+        "default": "#111111",
         "label": "t:labels.foreground"
+      },
+      {
+        "type": "color",
+        "id": "muted_color",
+        "default": "#444444",
+        "label": "t:labels.muted"
+      },
+      {
+        "type": "color",
+        "id": "surface_color",
+        "default": "#F4F4F4",
+        "label": "t:labels.surface"
+      },
+      {
+        "type": "color",
+        "id": "accent_color",
+        "default": "#F4D6CB",
+        "label": "t:labels.accent"
       },
       {
         "type": "range",
@@ -77,6 +95,68 @@
         "unit": "px",
         "label": "t:labels.input_corner_radius",
         "default": 4
+      }
+    ]
+  },
+  {
+    "name": "t:general.contact",
+    "settings": [
+      {
+        "type": "text",
+        "id": "whatsapp_number",
+        "label": "t:labels.whatsapp_number",
+        "info": "t:info.whatsapp_number",
+        "default": "573018430447"
+      },
+      {
+        "type": "text",
+        "id": "whatsapp_message",
+        "label": "t:labels.whatsapp_message",
+        "default": "Hola NOAN, quiero hacer una consulta."
+      },
+      {
+        "type": "checkbox",
+        "id": "whatsapp_floating",
+        "label": "t:labels.whatsapp_floating",
+        "default": true
+      }
+    ]
+  },
+  {
+    "name": "t:general.product_cards",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "card_show_second_image",
+        "label": "t:labels.card_show_second_image",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "card_new_tag",
+        "label": "t:labels.card_new_tag",
+        "info": "t:info.card_new_tag",
+        "default": "nuevo"
+      }
+    ]
+  },
+  {
+    "name": "t:general.social",
+    "settings": [
+      {
+        "type": "url",
+        "id": "social_instagram",
+        "label": "Instagram"
+      },
+      {
+        "type": "url",
+        "id": "social_facebook",
+        "label": "Facebook"
+      },
+      {
+        "type": "url",
+        "id": "social_tiktok",
+        "label": "TikTok"
       }
     ]
   }
